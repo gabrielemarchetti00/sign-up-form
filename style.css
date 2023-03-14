@@ -62,7 +62,7 @@ body{
     font-weight: bold;
     position: relative;
     left: 50px;
-    top: 150px;
+    top: 130px;
 }
 
 button{
@@ -87,5 +87,42 @@ span{
     color: #596D48;
 }
 
+label,input{
+    display: flex;
+    flex-direction: column;
+  }
 
+.right > p{
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    font-size: 25px;
+}
+
+form{
+    position: relative;
+    left: 35px;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+    border-color: #E5E7EB;
+}
+
+label{
+    font-weight: bold;
+}
+
+td{
+    padding: 15px;
+}
+
+.left > p{
+    position: absolute;
+    bottom: 1px;
+    left: 500px;
+    color: white;
+    font-size: 20px;
+}
 
