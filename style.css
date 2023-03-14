@@ -1,3 +1,8 @@
+@font-face {
+    font-family: logo-font;
+    src: url(ZilapTifinaghPersonalUse-d90gR.ttf);
+}
+
 body{
     display: flex;
     margin: 0;
@@ -11,7 +16,7 @@ body{
 
 .logo{
     height: 100px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .logo-section{
@@ -30,12 +35,57 @@ body{
     font-size: 80px;
 }
 
+
 .right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    background-color:rgb(240, 255, 250);
     flex: 1;
 }
 
-@font-face {
-    font-family: logo-font;
-    src: url(ZilapTifinaghPersonalUse-d90gR.ttf);
+.form{
+    height: 30vh;
 }
+
+.footer{
+    background-color: rgb(240, 255, 250);
+    flex: 1;
+}
+
+.header > p{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    top: 150px;
+}
+
+button{
+    width: 250px;
+    height: 70px;
+    margin: 50px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #596D48;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+.footer > p{
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+}
+
+span{
+    color: #596D48;
+}
+
+
 
