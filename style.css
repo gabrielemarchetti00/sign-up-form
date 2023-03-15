@@ -137,6 +137,9 @@ input:focus{
 
 .error{
     color: red;
+    padding: 0;
+    position: relative;
+    left: 15px;
 }
 
 
